@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --Very-Light-Grayish-Blue: hsl(240, 78%, 98%);
+    --Light-Grayish-Blue: hsl(234, 14%, 74%);
+    --Grayish-Blue: hsl(233, 13%, 49%);
+    --Dark-Grayish-Blue: hsl(232, 13%, 33%);
+
+    --Linear-Gradient: hsl(236, 72%, 79%) to hsl(237, 63%, 64%);
+
+    --base-font-size: 15px;
+}
+
+html {
+    font-size: var(--base-font-size);
+}
+
+
+.big-Container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Very-Light-Grayish-Blue);
+    background-image: url(pricing-html-css/images/bg-top.svg), url(pricing-html-css/images/bg-bottom.svg);
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-color: azure;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(136, 67, 255);
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+
+.card-text1,
+.card-text,
+.card-price,
+.card-price1,
+.learn,
+.card-text-b,
+.card-text1-b1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 10px;
+}
+
+.main-heading {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.card-price1,
+.card-price {
+    font-size: 50px;
+}
+
+.learn {
+    align-self: center;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.learn:hover {
+    background-color: rgb(23, 160, 209);
+}
+
+.card-text-b,
+.card-price {
+    border-bottom: 1px solid grey;
+}
+
+.card-text1-b1,
+.card-price1 {
+    border-bottom: 1px solid lightgray;
+}
+
+.card-price,
+.card-price1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.card-text-b,
+.card-text1-b1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

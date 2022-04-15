@@ -49,7 +49,6 @@ html {
 .card1 {
     display: flex;
     flex-direction: column;
-    background-color: rgb(136, 67, 255);
     color: rgb(255, 255, 255);
     padding-left: 20px;
     padding-top: 40px;
@@ -62,6 +61,7 @@ html {
 .card-price,
 .card-price1,
 .learn,
+.learn1,
 .card-text-b,
 .card-text1-b1 {
     font-family: 'Montserrat', sans-serif;
@@ -80,17 +80,14 @@ html {
     font-size: 50px;
 }
 
-.learn {
+.learn,
+.learn1 {
     align-self: center;
     margin-top: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 40px;
     padding-right: 40px;
-}
-
-.learn:hover {
-    background-color: rgb(23, 160, 209);
 }
 
 .card-text-b,
@@ -113,4 +110,28 @@ html {
 .card-text1-b1 {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+/* Adding a gradient over buttons */
+
+.learn:hover {
+    background-image: linear-gradient(hsl(237, 63%, 64%), hsl(237, 82%, 50%));
+}
+
+.learn {
+    background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    border: 0px;
+}
+
+.learn1:hover {
+    background-image: linear-gradient(hsl(240, 3%, 77%), hsl(240, 3%, 56%));
+}
+
+.learn1 {
+    background-image: linear-gradient(hsl(237, 51%, 91%), hsl(240, 3%, 77%));
+    border: 0px;
+}
+
+.card1 {
+    background-image: linear-gradient(hsl(252, 77%, 76%), hsl(258, 97%, 59%));
 }

@@ -7,9 +7,7 @@
     --Light-Grayish-Blue: hsl(234, 14%, 74%);
     --Grayish-Blue: hsl(233, 13%, 49%);
     --Dark-Grayish-Blue: hsl(232, 13%, 33%);
-
     --Linear-Gradient: hsl(236, 72%, 79%) to hsl(237, 63%, 64%);
-
     --base-font-size: 15px;
 }
 
@@ -25,11 +23,10 @@ html {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: var(--Very-Light-Grayish-Blue);
     background-image: url(bg-top.svg), url(bg-bottom.svg);
     background-position: right top, left bottom;
     background-repeat: no-repeat, no-repeat;
-    background-color: azure;
+    background-color: var(--Very-Light-Grayish-Blue);
 }
 
 .cardsContainer {
@@ -71,7 +68,7 @@ html {
 
 .main-heading {
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
     font-size: 20px;
 }
 
@@ -84,10 +81,10 @@ html {
 .learn1 {
     align-self: center;
     margin-top: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .card-text-b,
@@ -119,7 +116,7 @@ html {
 }
 
 .learn {
-    background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    background-image: linear-gradient(hsl(252, 77%, 76%), hsl(258, 97%, 59%));
     border: 0px;
 }
 
